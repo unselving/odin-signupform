@@ -87,6 +87,18 @@ input:focus{
     filter:drop-shadow(0px 4px 4px darkgrey);
 
 }
+input:valid{
+    border: 1px solid #E5E7EB;
+}
+
+input:invalid{
+    border-color:red;
+}
+
+input:required{
+    border: 1px solid #E5E7EB;
+}
+
 
 button{
     font-family:Roboto, sans-serif;
